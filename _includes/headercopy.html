@@ -3,12 +3,22 @@
 </div>
 
 <div class="center">
-	<a href="/about">About</a>
-	<a href="/about">Work</a>
-	<a href="/about">Notes</a>
-	<a href="/about">Contact</a>
-	<a href="/about">For You</a>
+	{% for link in site.pages %}
+		{% if link.title %}
+			
+			{% if link.permalink == page.permalink %}
+				<u><a href="{{link.permalink}}">{{link.title}}</a></u>
+				{% else %}
+				<a href="{{link.permalink}}">{{link.title}}</a>
+				
+			{% endif %}	
+		{% endif %}
+	{% endfor %}
 </div>
 <hr>
+
+{{ page.title }}
+{{ page.permalink }}
+{{ page.layout }}
 
 
