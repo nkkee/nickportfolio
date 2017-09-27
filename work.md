@@ -1,6 +1,6 @@
 ---
-layout: copy
-title: Work
+layout: default
+title: 
 permalink: /work/
 ---
 

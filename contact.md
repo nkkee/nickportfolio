@@ -1,6 +1,6 @@
 ---
-layout: copy
-title: Contact
+layout: default
+title: 
 permalink: /contact/
 ---
 
