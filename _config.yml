@@ -17,12 +17,12 @@ title: Nicholas Kee
 home: Home
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  Nicholas Kee &copy; 2017
+  Nicholas Kee &copy; 2018
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: keenicholas
 github_username: nkkee
-facebook_username: nicholas.kee.90
+facebook_username: nicholaskeejamaica
 linkedin_username: nicholaskkee
 
 # Build settings
